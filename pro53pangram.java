@@ -18,15 +18,15 @@ public static void main(String[] args) {
 			flag=1;
 		else if(c[j]==' ')
 			flag=1;
-		else if(flag!=1)
-			count=1;
-		
 		}
-		flag=0;
+	 if(flag!=1)
+			count=1;
+	 flag=0;
+		
 		
 	}if(count==1)
 		System.out.println("it is not panagram");
-	else if(flag==1)
+	else 
 		System.out.println("it is panagram");
 
 }
