@@ -4,9 +4,10 @@ public class Example {
 public static void main(String[] args) {
 int[] a=new int[10];
 int b,i=0,temp=0,least;
-System.out.println("Enter the number and eleminating digit");
+System.out.println("Enter the number ");
 Scanner obj=new Scanner(System.in);
 b=obj.nextInt();
+System.out.println("Enter the eleminating digit");
 least=obj.nextInt();
 while(b>0)
 {a[i]=b%10;
