@@ -5,7 +5,7 @@ public class test {
 	char c[];
 	String ex[]=new String[100];
 	public String process(String str){
-		int sta=0,end=0,length=0,m,flag=0;
+		int sta=0,length=0,m,flag=0;
 		c=str.toCharArray();
 		for(int i=0;i<str.length();i++)    //to find the first and last letters are equal then it store in the array
 			for(int j=i+2;j<str.length();j++)
