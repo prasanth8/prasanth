@@ -6,17 +6,17 @@ public class hunter121diamond {
 	public void upperpart(int n){
 		for(int i=0;i<=n/2;i++){
 			for(int j=0;j<(n/2)-b;j++)
-			System.out.print((char)(101-j));
+			System.out.print((char)(101-j)+" ");
 			if(i==0)
-			System.out.print("a");
+			System.out.print("a ");
 			else {for(int k=0;k<a;k++)
 			{
-				System.out.print(" ");
+				System.out.print("  ");
 			}
 			a+=2;
 			}
 			for(int l=0;l<(n/2)-b;l++)
-			System.out.print((char)(l+c));
+			System.out.print((char)(l+c)+" ");
 			System.out.println();
 		if(i<1)
 			b=0;
@@ -31,13 +31,13 @@ public class hunter121diamond {
 		for(int i=1;i<=n/2;i++){
 			val=c;
 			for(int j=0;j<=c;j++)
-				System.out.print((char)(101-j));
+				System.out.print((char)(101-j)+" ");
 			if(i==n/2)
-				System.out.print("a");
+				System.out.print("a ");
 			for(int k=0;k<limit;k++)
-				System.out.print(" ");
+				System.out.print("  ");
 			for(int l=0;l<=c;l++)
-			{	System.out.print((char)(101-val));
+			{	System.out.print((char)(101-val)+" ");
 			val--;
 			}System.out.println();
 			limit-=2;
