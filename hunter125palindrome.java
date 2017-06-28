@@ -2,11 +2,11 @@ import java.util.Scanner;
 public class hunter125palindrome {
 public static void main(String[] args) {
 	Scanner in=new Scanner(System.in);
+	System.out.println("Enter the string");
 	String str=in.next();
 	String ans=null;
 	int length=0;
 	StringBuffer s=new StringBuffer(str);
-
 	for(int i=0;i<str.length();i++){
 		for(int j=i+1;j<str.length();j++){
 			if(str.charAt(i)==str.charAt(j)){
