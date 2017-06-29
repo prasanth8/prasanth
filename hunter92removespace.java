@@ -1,22 +1,14 @@
-import java.util.*;
+package prasanth1;
+import java.util.Scanner;
+import java.util.StringTokenizer;
 public class hunter92removespace {
-	static String str;
-	hunter92removespace(String str){
-		for(int i=0;i<str.length();i++){
-			if(str.charAt(i)!=' '){
-				while(i<str.length()&&str.charAt(i)!=' ')
-				{
-			        System.out.print(str.charAt(i));
-				i=i+1;
-				}System.out.print(" ");}
-
-			
-		}
-	}
 public static void main(String[] args) {
-Scanner in=new Scanner(System.in);
-System.out.println("Enter the String");
-str=in.nextLine();
-hunter92removespace objHunter92removespace=new hunter92removespace(str);
+	Scanner in=new Scanner(System.in);
+	String str;
+	str=in.nextLine();
+	StringTokenizer ex=new StringTokenizer(str);
+	while(ex.hasMoreTokens()){
+		System.out.print(ex.nextToken()+" ");
+	}
 }
 }
