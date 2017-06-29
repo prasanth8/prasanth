@@ -15,6 +15,7 @@ for(int i=0;i<n;i++)
 		big=Math.abs((arr[i-1]-arr[i]));
 		index=i-1;
 	}	
-	}System.out.println(arr[index]+"("+big+")");
+	}System.out.println("Index of element :"+index);
+System.out.println(arr[index]+"("+big+")");
 }
 }
